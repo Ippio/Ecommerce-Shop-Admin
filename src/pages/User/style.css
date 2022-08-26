@@ -1,0 +1,19 @@
+/*----------------------------------------------------------------------------------------------------*/
+
+.user-card{display:flex;flex-grow:1;flex-direction:column;border-radius:0.25rem;background-color:var(--md-accent)}.user-head{display:flex;align-items:center;border-top-left-radius:0.25rem;border-top-right-radius:0.25rem;padding:0.5rem;font-weight:500}.user-avatar{margin-right:0.5rem;border-radius:9999px;border-width:1px;--tw-border-opacity:1;border-color:rgba(255, 255, 255, var(--tw-border-opacity))}.avatar__subtext{margin-left:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border-radius:50px;padding:2px 8px;font-size:x-small;flex-shrink:0}
+
+.role-tag[data-v-b058cd70] {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0.125rem 0.5rem;
+    font-size: small;
+    flex-shrink: 0;
+    border-radius: 0.125rem ;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/

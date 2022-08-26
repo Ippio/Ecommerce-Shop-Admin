@@ -1,0 +1,104 @@
+/* .product-card, .product-card.dense .product-card {
+    grid-template-columns: 84px auto 1fr auto auto;
+    grid-template-areas:
+        "image name name stats status"
+        "image price price price price"
+        "image description description description description";
+} */
+
+.product-card {
+    display: grid;
+    position: relative;
+    overflow: hidden;
+    flex-grow: 1;
+    padding: 0.5rem;
+    width: 100%;
+    gap: 0.25rem 0.5rem;
+    grid-template-columns: min(25%, 150px) 1fr auto;
+    grid-template-rows: auto auto auto 1fr;
+    grid-template-areas:
+        "image name  stats status"
+        "image price price price "
+        "image description description description ";
+    border-radius: 0.125rem;
+    background-color: var(--md-accent);
+}
+
+.product-card-image {
+    overflow: hidden;
+    max-height: 100%;
+    align-self: flex-start;
+    border-radius: 0.25rem;
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.title {
+    height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product-card .price {
+    font-weight: 300;
+    color: red;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.stat {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin: 0.125rem 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.icon.rel {
+    width: 1em;
+    height: 1em;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-indent: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    transition: color .3s cubic-bezier(.25, .8, .5, 1);
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+}
+
+.icon.small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.aspect {
+    height: 0;
+    padding-bottom: 142.307692%;
+    position: relative;
+    overflow: hidden;
+}
+
+.md-md-container.dense {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.md-md-container,
+.md-md-container * {
+    all: revert;
+}
+
