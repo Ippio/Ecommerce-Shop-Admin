@@ -37,7 +37,7 @@ const options = ['Bán chạy', 'Mới nhất', 'Giá cao', 'Giá thấp']
 const defaultState = {
     currentPage: 1,
     refreshTimes: 1,
-    limit: 20,
+    limit: 12,
     selectedOption: options[0],
     product: null,
     modalToggle: false,
