@@ -41,6 +41,7 @@ const NewProductForm = () => {
     freeShipping: false,
     urlPicture: ''
   })
+  console.log(newProduct)
   //set up preview img
   const preview = (newProduct.urlPicture) ? (URL.createObjectURL(newProduct.urlPicture)) : ('')
   //////////////////////
